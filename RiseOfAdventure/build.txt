@@ -1,0 +1,3 @@
+displayName = Rise Of Adventure
+author = Pyrossal
+version = 0.1
