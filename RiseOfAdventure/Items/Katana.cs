@@ -3,11 +3,11 @@ using Terraria.ModLoader;
 
 namespace RiseOfAdventure.Items
 {
-	public class Katana : ModItem
+	public class Kings_Katana : ModItem
 	{
 		public override void SetStaticDefaults() 
 		{
-			// DisplayName.SetDefault("King's Katana"); {
+			DisplayName.SetDefault("King's Katana");
 			Tooltip.SetDefault("An old katana that was made to protect kings...");
 		}
 
@@ -16,7 +16,7 @@ namespace RiseOfAdventure.Items
 			item.damage = 14;
 			item.melee = true;
 			item.width = 40;
-			item.height = 40;
+			item.height = 70;
 			item.useTime = 20;
 			item.useAnimation = 20;
 			item.useStyle = 1;
